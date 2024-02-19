@@ -8,16 +8,23 @@ const Navbar = () => {
 
   const handleNavToggle = () => {
     setNavOpen(!navOpen);
+    console.log("NavOpen value:", navOpen);
   };
+  
 
   return (
     <div className="relative z-50">
-      <div className="bg-blue-950 flex justify-end pr-16">
-        <p className="text-white mt-0 text-lg mb-2 font-[Open Sans]">
+      <div className="bg-blue-950 flex justify-end items-center px-4 py-2">
+        <p className="text-white text-sm lg:text-lg font-[Open Sans]">
           Contact Us on 01443 400307 | info@preventchildrensocialcare.co.uk
         </p>
+        <HiMenuAlt3
+          onClick={handleNavToggle}
+          className="text-white cursor-pointer lg:hidden"
+          size={35}
+        />
       </div>
-      <div className="absolute top-0 left-0 w-full p-4">
+      <div className="absolute top-0 left-0 w-full p-4 ">
             <div className="flex items-center justify-between mt-16 lg:pl-32">
             <Link to="/">
                 <img src={logo} alt="preventchildrensocialcare" style={{ width: '300px', height: 'auto' }} />
@@ -27,13 +34,8 @@ const Navbar = () => {
                 Effective prevention strategies aim to address <br /> the underlying factors that can lead to family crises
                 </p>
             </div>
-            <HiMenuAlt3
-                onClick={handleNavToggle}
-                className="z-20 text-black font-bold cursor-pointer lg:hidden"
-                size={35}
-            />
         </div>
-        <div className={`mt-4 lg:mt-8 lg:flex lg:justify-center ${navOpen ? 'hidden md:flex' : 'hidden lg:flex'}`}>
+        <div className={`mt-4 lg:mt-8 lg:flex lg:justify-center ${navOpen ? '' : 'hidden lg:flex'}`}>
           <ul className="flex flex-col space-y-4 lg:space-y-0 lg:space-x-16 lg:flex-row lg:items-center">
             <li className="font-[Open Sans] text-xl text-black">
               <Link to="/" className="hover:text-gray-800 hover:underline">
