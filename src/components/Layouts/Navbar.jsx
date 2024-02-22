@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className="relative z-50">
           <div className="bg-blue-950 flex justify-between pr-16 relative">
       <p className="text-white mt-0 lg:text-lg mb-2 font-[Open Sans]">
-        Contact Us on 01443 400307 | info@preventchildrensocialcare.co.uk
+        Contact Us on 01400 00000 | info@preventchildrensocialcare.co.uk
       </p>
       <HiMenuAlt3
         onClick={handleNavToggle}
@@ -29,7 +29,7 @@ const Navbar = () => {
             </Link>
             <div className="ml-4 lg:ml-8 w-full lg:w-auto">
                 <p className="text-right lg:text-left lg:pr-24 lg:text-xl text-blue-950 lg:font-semibold">
-                Effective prevention strategies aim to address <br /> the underlying factors that can lead to family crises
+                Safeguarding the well-being and happiness of children across the UK
                 </p>
             </div>
             
