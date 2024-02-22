@@ -13,13 +13,13 @@ const Navbar = () => {
   return (
     <div className="relative z-50">
           <div className="bg-blue-950 flex justify-between pr-16 relative">
-      <p className="text-white mt-0 lg:text-lg mb-2 font-[Open Sans]">
+      <p className="text-white ml-2 mt-0 lg:text-lg mb-2 font-[Open Sans]">
         Contact Us on 01400 00000 | info@preventchildrensocialcare.co.uk
       </p>
       <HiMenuAlt3
         onClick={handleNavToggle}
         className="z-20 text-white mt-2 font-bold text-3xl cursor-pointer lg:hidden absolute top-0 right-0"
-        size={48}
+        size={45}
       />
     </div>
       <div className="absolute top-0 left-0 w-full p-4">
