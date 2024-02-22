@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HiMenuAlt3 } from 'react-icons/hi';
+import { CgMenuRound } from "react-icons/cg";
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 
@@ -16,9 +16,9 @@ const Navbar = () => {
       <p className="text-white ml-2 mt-0 lg:text-lg mb-2 font-[Open Sans]">
         Contact Us on 01400 00000 | info@preventchildrensocialcare.co.uk
       </p>
-      <HiMenuAlt3
+      <CgMenuRound
         onClick={handleNavToggle}
-        className="z-20 text-white mt-2 font-bold text-3xl cursor-pointer lg:hidden absolute top-0 right-0"
+        className="z-20 text-white font-bold text-3xl pr-2 cursor-pointer lg:hidden absolute top-0 right-0"
         size={45}
       />
     </div>
