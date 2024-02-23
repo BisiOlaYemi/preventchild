@@ -28,7 +28,7 @@ const Cards = () => {
       <div className="flex flex-wrap justify-center">
         <ServiceCard
           imageUrl="https://img.freepik.com/free-photo/high-angle-woman-girls-home_23-2150275602.jpg?size=626&ext=jpg&ga=GA1.1.391507465.1706553752&semt=ais"
-          title="Early Parenting Support"
+          title="Child-Centric Approach"
           
           link="/service1" 
         />

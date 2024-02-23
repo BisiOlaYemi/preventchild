@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="relative z-50">
-          <div className="bg-blue-950 flex justify-between pr-16 relative">
+          <div className="bg-blue-950 flex lg:justify-end pr-16 relative">
       <p className="text-white ml-2 mt-0 lg:text-lg mb-2 font-[Open Sans]">
         Contact Us on 01400 00000 | info@preventchildrensocialcare.co.uk
       </p>
