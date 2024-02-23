@@ -29,44 +29,44 @@ const Navbar = () => {
             </Link>
             <div className="ml-4 lg:ml-8 w-full lg:w-auto">
                 <p className="text-right lg:text-left lg:pr-24 lg:text-xl text-blue-950 lg:font-semibold">
-                Safeguarding the well-being and happiness of children across the UK
+                Safeguarding the well-being and happiness of children across the UK.
                 </p>
             </div>
             
         </div>
         <div className={`mt-4 lg:mt-8 lg:flex lg:justify-center ${navOpen ? 'hidden md:flex' : 'hidden lg:flex'}`}>
           <ul className="flex flex-col space-y-4 lg:space-y-0 lg:space-x-16 lg:flex-row lg:items-center">
-            <li className="font-[Open Sans] text-xl text-black">
+            <li className="font-[Open Sans] text-lg text-black">
               <Link to="/" className="hover:text-gray-800 hover:underline">
                 Home
               </Link>
             </li>
-            <li className="font-[Open Sans] text-xl text-black">
+            <li className="font-[Open Sans] text-lg text-black">
               <Link to="/Aboutus" className="hover:text-gray-800 hover:underline">
                 About us
               </Link>
             </li>
-            <li className="font-[Open Sans] text-xl text-black">
+            <li className="font-[Open Sans] text-lg text-black">
               <Link to="/services" className="hover:text-gray-800 hover:underline">
                 Services
               </Link>
             </li>
-            <li className="font-[Open Sans] text-xl text-black">
+            <li className="font-[Open Sans] text-lg text-black">
               <Link to="/services" className="hover:text-gray-800 hover:underline">
                 Training
               </Link>
             </li>
-            <li className="font-[Open Sans] text-xl text-black">
+            <li className="font-[Open Sans] text-lg text-black">
               <Link to="/services" className="hover:text-gray-800 hover:underline">
                 Pricing
               </Link>
             </li>
-            <li className="font-[Open Sans] text-xl text-black">
+            <li className="font-[Open Sans] text-lg text-black">
               <Link to="/services" className="hover:text-gray-800 hover:underline">
                 Testimonials
               </Link>
             </li>
-            <li className="font-[Open Sans] text-xl text-black">
+            <li className="font-[Open Sans] text-lg text-black">
               <Link to="/contact" className="hover:text-gray-800 hover:underline">
                 Contact us
               </Link>
