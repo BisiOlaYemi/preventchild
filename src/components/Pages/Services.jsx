@@ -27,6 +27,15 @@ const Services = () => {
         />
         <div className="container mx-auto px-4 mt-8">
             <h2 className='text-3xl mt-8 text-blue-950 text-center font-bold'>Our Services</h2>
+            <p className="text-2xl font-[Open Sans] text-center mb-8 mt-8">
+                Prevent Children Social Care Consultants offers a 
+                professional service to the care sector all over the UK. 
+                Our services are designed to ensure that you have peace of mind about 
+                the level of compliance of your care service. <br />
+            </p>
+            <p className="text-2xl font-[Open Sans] text-center mb-8">
+                Take a look at our services below, or for more information please <a href='/ContactUs' className='text-xl text-blue-800'>Contact us</a>
+            </p>
             <div className="flex flex-wrap justify-center">
                 <ServiceCard
                 imageUrl="https://img.freepik.com/free-photo/top-view-career-guidance-items-judges_23-2149443469.jpg?w=740&t=st=1708807160~exp=1708807760~hmac=a531ced7cc38bf006d1ac260403b0715186798ad311e7108b2000a877f099c50"
