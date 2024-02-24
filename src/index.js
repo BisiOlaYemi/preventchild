@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import AboutUsPage from './components/Pages/AboutUsPage';
+import Services from './components/Pages/Services';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,8 +12,8 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/AboutUs" element={<AboutUsPage />} />
-      {/* <Route path="/Services" element={<Services />} />
-      <Route path="/Contact" element={<ContactUs /> } />       */}
+      <Route path="/Services" element={<Services /> } />
+      {/* <Route path="/Contact" element={<ContactUs /> } />       */}
     </Routes>
   </Router>
 );

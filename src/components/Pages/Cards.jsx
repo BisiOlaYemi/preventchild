@@ -5,7 +5,7 @@ const ServiceCard = ({ imageUrl, title, description, link }) => {
   return (
     <Link to={link} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 rounded overflow-hidden mx-4 my-8 transform hover:scale-105 transition duration-300 ease-in-out">
       <img className="w-full h-auto" src={imageUrl} alt={title} />
-      <div className=" bg-indigo-800 px-6 py-4">
+      <div className=" bg-blue-950 px-6 py-4">
         <div className="font-bold text-white text-lg mb-2">{title}</div>
         <p className="text-white text-lg">{description}</p>
       </div>
