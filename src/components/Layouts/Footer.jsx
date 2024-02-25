@@ -1,41 +1,51 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import logo from '../../assets/logo.png';
 
 const Footer = () => {
+  
+  const currentYear = new Date().getFullYear();
+
   return (
-    <footer className="relative bg-gray-950 text-white mt-24">
-      <div className="absolute inset-0 opacity-80"></div>
-      <div className="relative container mx-auto py-10 mb-8">
-        <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6">
-          <Link to="/" className="hover:text-gray-400">
-            Home
-          </Link>
-          <Link to="/Aboutus" className="hover:text-gray-400">
-            About Us
-          </Link>
-          <Link to="/services" className="hover:text-gray-400">
-            Services
-          </Link>
-          <Link to="/contact" className="hover:text-gray-400">
-            Contact Us
-          </Link>
+    <footer className="bg-gray-600 text-white py-8">
+      <div className="container mx-auto flex flex-wrap justify-between">
+        <div className="w-full md:w-1/3">
+          <h3 className="text-lg font-semibold mb-4 border-b">Contact Us</h3>
+          <p>Prevent Children Social Care Consultancy</p>
+          <p>Lanwood House, 18 Lan Park Road</p>
+          <p>Pontypridd CF37 2DH</p>
+          <p>Telephone: 01400 000 / 0000000 000</p>
+          <p>Email: info@preventchildrensocialcare.co.uk</p>
+
+          <div className='mt-4 mb-4'>
+          <Link to="/">
+                <img src={logo} alt="preventchildrensocialcare" style={{ width: '200px', height: 'auto' }} />
+            </Link>
+          </div>
         </div>
-        <hr className="border-t border-gray-400 my-4" />
-        <div className="flex justify-center items-center space-x-4 mt-6">
-          <Link to="#" className="text-white hover:text-gray-400">
-            <FaFacebook size={24} />
-          </Link>
-          <Link to="#" className="text-white hover:text-gray-400">
-            <FaTwitter size={24} />
-          </Link>
-          <Link to="#" className="text-white hover:text-gray-400">
-            <FaLinkedin size={24} />
-          </Link>
+        <div className="w-full md:w-1/3">
+          <h3 className="text-lg font-semibold mb-4 border-b">Our Services</h3>
+          <p><Link to="/mock-inspections">Mock Inspections</Link></p>
+          <p><Link to="/support-enforcement-action">Support with Enforcement Action</Link></p>
+          <p><Link to="/action-plans">Action Plans</Link></p>
+          <p><Link to="/inspection-report-responses">Inspection Report Responses</Link></p>
+          <p><Link to="/compliance-audits">Compliance Audits</Link></p>
+          <p><Link to="/training">Training</Link></p>
+        </div>
+        <div className="w-full md:w-1/3">
+          <h3 className="text-lg font-semibold mb-4 border-b">Information</h3>
+          <p><Link to="/about-us">About Us</Link></p>
+          <p><Link to="/pricing">Pricing</Link></p>
+          <p><Link to="/news">News</Link></p>
+          <p><Link to="/client-testimonials">Client Testimonials</Link></p>
+          <p><Link to="/privacy-policy">Privacy Policy</Link></p>
+          <p><Link to="/cookie-policy">Cookie Policy</Link></p>
+          <p><Link to="/accessibility-statement">Accessibility Statement</Link></p>
         </div>
       </div>
-      <div className="absolute bottom-0 left-0 right-0 p-4 text-center text-gray-400">
-         &copy; Prevent Children Social Care | All rights reserved
+
+      <div className="text-center mt-8">
+        <p>© {currentYear} Prevent Children Social Care Consultants Ltd. All rights reserved.</p>
       </div>
     </footer>
   );
