@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <div className="w-full md:w-1/3">
           <h3 className="text-lg font-semibold mb-4 border-b">Information</h3>
-          <p><Link to="/about-us">About Us</Link></p>
+          <p><Link to="/AboutUs">About Us</Link></p>
           <p><Link to="/pricing">Pricing</Link></p>
           <p><Link to="/news">News</Link></p>
           <p><Link to="/client-testimonials">Client Testimonials</Link></p>
