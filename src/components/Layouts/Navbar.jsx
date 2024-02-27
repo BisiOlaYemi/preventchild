@@ -28,7 +28,7 @@ const Navbar = () => {
                 <img src={logo} alt="preventchildrensocialcare" style={{ width: '300px', height: 'auto' }} />
             </Link>
             <div className="ml-4 lg:ml-8 w-full lg:w-auto">
-                <p className="text-right lg:text-left lg:pr-24 lg:text-xl text-blue-950 lg:font-semibold">
+                <p className="font-[Open Sans] text-right lg:text-left lg:pr-24 lg:text-xl text-blue-950 lg:font-semibold bg-gradient-to-r from-amber-500 to-purple-800 text-transparent bg-clip-text animate-fade-out-up">
                 Safeguarding the well-being and happiness of children across the UK.
                 </p>
             </div>
