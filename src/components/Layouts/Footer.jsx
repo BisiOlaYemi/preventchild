@@ -25,12 +25,12 @@ const Footer = () => {
         </div>
         <div className="w-full md:w-1/3">
           <h3 className="text-lg font-semibold mb-4 border-b">Our Services</h3>
-          <p><Link to="/mock-inspections">Regulation 44 Compliance</Link></p>
-          <p><Link to="/support-enforcement-action">Recruitment Support</Link></p>
-          <p><Link to="/action-plans">Compliance Assistance</Link></p>
-          <p><Link to="/inspection-report-responses">Ofsted Report Preparation</Link></p>
-          <p><Link to="/compliance-audits">Disciplinary Procedures</Link></p>
-          <p><Link to="/training">Training and Development</Link></p>
+          <p><Link to="/regulation-compliance">Regulation 44 Compliance</Link></p>
+          <p><Link to="/recruitment-support">Recruitment Support</Link></p>
+          <p><Link to="/compliance-assistance">Compliance Assistance</Link></p>
+          <p><Link to="/ofsted-report-preparation">Ofsted Report Preparation</Link></p>
+          <p><Link to="/disciplinary-procedure">Disciplinary Procedures</Link></p>
+          <p><Link to="/Training">Training and Development</Link></p>
         </div>
         <div className="w-full md:w-1/3">
           <h3 className="text-lg font-semibold mb-4 border-b">Information</h3>
