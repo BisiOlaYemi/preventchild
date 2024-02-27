@@ -79,37 +79,37 @@ const Navbar = () => {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/95">
           <ul className="flex flex-col space-y-4">
             <li className="font-semibold text-xl text-white">
-              <Link to="/" className="hover:text-green-800">
+              <Link to="/" className="hover:text-blue-950">
                 Home
               </Link>
             </li>
             <li className="font-semibold text-xl text-white">
-              <Link to="/AboutUs" className="hover:text-green-800">
+              <Link to="/AboutUs" className="hover:text-blue-950">
                 About us
               </Link>
             </li>
             <li className="font-semibold text-xl text-white">
-              <Link to="/Services" className="hover:text-green-800">
+              <Link to="/Services" className="hover:text-blue-950">
                 Services
               </Link>
             </li>
             <li className="font-semibold text-xl text-white">
-              <Link to="/Training" className="hover:text-green-800">
+              <Link to="/Training" className="hover:text-blue-950">
                 Training
               </Link>
             </li>
             <li className="font-semibold text-xl text-white">
-              <Link to="/Pricing" className="hover:text-green-800">
+              <Link to="/Pricing" className="hover:text-blue-950">
                 Pricing
               </Link>
             </li>
             <li className="font-semibold text-xl text-white">
-              <Link to="/Testimonials" className="hover:text-green-800">
+              <Link to="/Testimonials" className="hover:text-blue-950">
                 Testimonials
               </Link>
             </li>
             <li className="font-semibold text-xl text-white">
-              <Link to="/contact" className="hover:text-green-800">
+              <Link to="/contact" className="hover:text-blue-950">
                 Contact us
               </Link>
             </li>
