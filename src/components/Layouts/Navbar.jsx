@@ -89,8 +89,23 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="font-semibold text-xl text-white">
-              <Link to="/services" className="hover:text-green-800">
+              <Link to="/Services" className="hover:text-green-800">
                 Services
+              </Link>
+            </li>
+            <li className="font-semibold text-xl text-white">
+              <Link to="/Training" className="hover:text-green-800">
+                Training
+              </Link>
+            </li>
+            <li className="font-semibold text-xl text-white">
+              <Link to="/Pricing" className="hover:text-green-800">
+                Pricing
+              </Link>
+            </li>
+            <li className="font-semibold text-xl text-white">
+              <Link to="/Testimonials" className="hover:text-green-800">
+                Testimonials
               </Link>
             </li>
             <li className="font-semibold text-xl text-white">
