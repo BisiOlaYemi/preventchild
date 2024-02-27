@@ -15,7 +15,7 @@ const Training = () => {
           style={{ height: '550px', minWidth: '100vw', position: 'relative', left: '50%', transform: 'translateX(-50%)'}}
         />
         <div className="container mx-auto px-4 mt-8">
-            <h2 className='text-2xl mt-8 text-blue-950 font-bold'>Training</h2>
+            <h2 className='text-2xl mt-8 text-blue-950 font-bold'>Training & Development</h2>
             <p className="text-xl font-[Open Sans] mb-2 mt-4" >We offer a wide range of health and social care courses, these range from a few hours up to 10 days over a few months. All of our courses are:</p>
             <ul className="pl-2 list-disc text-lg font-[Open Sans] mb-2 mt-2">
                 <li>Based on current legislation and best practice</li>
