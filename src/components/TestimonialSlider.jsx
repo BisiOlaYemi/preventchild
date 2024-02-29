@@ -42,16 +42,6 @@ const TestimonialSlider = ({ testimonials }) => {
             </div>
           ))}
         </div>
-        <div className="absolute top-1/2 -translate-y-1/2 flex justify-between w-full px-4">
-          <FaLessThan
-            className="arrow left-arrow text-gray-600 hover:text-gray-900 cursor-pointer"
-            onClick={prevSlide}
-          />
-          <FaGreaterThan
-            className="arrow right-arrow text-gray-600 hover:text-gray-900 cursor-pointer"
-            onClick={nextSlide}
-          />
-        </div>
       </div>
     </div>
   );

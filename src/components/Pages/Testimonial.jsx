@@ -8,7 +8,7 @@ const Testimonial = () => {
       author: "John Doe",
     },
     {
-      text: "Amazing experience with this company.",
+      text: "Awesome Job done by experience company.",
       author: "Jane Smith",
     },
     {
