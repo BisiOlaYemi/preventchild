@@ -99,7 +99,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="font-semibold text-xl text-white">
-              <Link to="/Pricing" className="hover:text-blue-950">
+              <Link to="/PriceIndex" className="hover:text-blue-950">
                 Pricing
               </Link>
             </li>
