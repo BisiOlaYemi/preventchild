@@ -14,7 +14,7 @@ const Testimonial = () => {
     {
         text: "Amazing experience with this company.",
         author: "Elon Steve",
-      },
+    },
     
   ];
 
