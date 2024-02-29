@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Cards from './Pages/Cards';
 import Page from './Pages/WhoWeAre';
+import Testimonial from './Pages/Testimonial';
 
 const MySlider = () => {
   const settings = {
@@ -66,6 +67,9 @@ const MySlider = () => {
         </div>
         <div>
           <Page />
+        </div>
+        <div>
+          <Testimonial />
         </div>
         
     </div>
