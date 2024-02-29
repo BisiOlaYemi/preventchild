@@ -59,7 +59,7 @@ const MySlider = () => {
       </Slider>
         <div className='bg-blue-950 w-full h-auto object-cover justify-center text-center'>
           <div className="h-full flex justify-center items-center">
-            <h2 className='text-2xl text-white mt-16 mb-16'>Our services are designed to assist care homes in adhering to <br /> the highest standards of regulation, compliance, and care.</h2>
+            <h2 className='text-xl text-white mt-16 mb-16'>Our services are designed to assist care homes in adhering to <br /> the highest standards of regulation, compliance, and care.</h2>
           </div>
         </div>
         <div className="mb-8">
