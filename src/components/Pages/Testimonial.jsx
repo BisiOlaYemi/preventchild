@@ -20,6 +20,7 @@ const Testimonial = () => {
 
   return (
     <div className='mt-24 text-center py-8'>
+      <h1 className='text-center font-[Open Sans] text-lg mb-2'>Testimonials</h1>
       <TestimonialSlider testimonials={testimonials} />
     </div>
   );

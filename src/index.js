@@ -7,6 +7,7 @@ import AboutUsPage from './components/Pages/AboutUsPage';
 import Services from './components/Pages/Services';
 import Training from './components/Pages/Training';
 import PriceIndex from './components/Pages/PriceIndex';
+import Contact from './components/Pages/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +17,8 @@ root.render(
       <Route path="/AboutUs" element={<AboutUsPage />} />
       <Route path="/Services" element={<Services /> } />
       <Route path="/Training" element={<Training /> } />  
-      <Route path="/PriceIndex" element={<PriceIndex /> } />    
+      <Route path="/PriceIndex" element={<PriceIndex /> } />
+      <Route path="/Contact" element={<Contact /> } />    
     </Routes>
   </Router>
 );
