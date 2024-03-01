@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="relative z-50">
           <div className="bg-blue-950 flex lg:justify-end pr-16 relative">
-      <p className="text-white ml-2 mt-0 lg:text-lg mb-2 font-[Open Sans]">
+      <p className="text-white ml-2 mt-0 lg:text-lg mb-2 font-[Open Sans] lg:text-sm text-sm">
         Contact Us on 01400 00000 | info@preventchildrensocialcare.co.uk
       </p>
       <CgMenuRound
