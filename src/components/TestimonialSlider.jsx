@@ -38,7 +38,7 @@ const TestimonialSlider = ({ testimonials }) => {
               } transition-opacity duration-500 ease-in-out absolute top-0 left-0 right-0`}
             >
               <p className="testimonial-content text-xl">{testimonial.text}</p>
-              <p className="testimonial-author text-2xl mb-24">{testimonial.author}</p>
+              <p className="testimonial-author text-xl mb-24">{testimonial.author}</p>
             </div>
           ))}
         </div>
