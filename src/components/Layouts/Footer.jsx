@@ -25,22 +25,22 @@ const Footer = () => {
         </div>
         <div className="w-full md:w-1/3">
           <h3 className="text-lg font-semibold mb-4 border-b">Our Services</h3>
-          <p><Link to="/regulation-compliance">Regulation 44 Compliance</Link></p>
-          <p><Link to="/recruitment-support">Recruitment Support</Link></p>
-          <p><Link to="/compliance-assistance">Compliance Assistance</Link></p>
-          <p><Link to="/ofsted-report-preparation">Ofsted Report Preparation</Link></p>
-          <p><Link to="/disciplinary-procedure">Disciplinary Procedures</Link></p>
-          <p><Link to="/Training">Training and Development</Link></p>
+          <p><Link to="#">Regulation 44 Compliance</Link></p>
+          <p><Link to="#">Recruitment Support</Link></p>
+          <p><Link to="#">Compliance Assistance</Link></p>
+          <p><Link to="#">Ofsted Report Preparation</Link></p>
+          <p><Link to="#">Disciplinary Procedures</Link></p>
+          <p><Link to="#">Training and Development</Link></p>
         </div>
         <div className="w-full md:w-1/3">
           <h3 className="text-lg font-semibold mb-4 border-b">Information</h3>
-          <p><Link to="/AboutUs">About Us</Link></p>
-          <p><Link to="/pricing">Pricing</Link></p>
-          <p><Link to="/news">News</Link></p>
-          <p><Link to="/client-testimonials">Client Testimonials</Link></p>
-          <p><Link to="/privacy-policy">Privacy Policy</Link></p>
-          <p><Link to="/cookie-policy">Cookie Policy</Link></p>
-          <p><Link to="/accessibility-statement">Accessibility Statement</Link></p>
+          <p><Link to="#">About Us</Link></p>
+          <p><Link to="#">Pricing</Link></p>
+          <p><Link to="#">News</Link></p>
+          <p><Link to="#">Client Testimonials</Link></p>
+          <p><Link to="#">Privacy Policy</Link></p>
+          <p><Link to="#">Cookie Policy</Link></p>
+          <p><Link to="#">Accessibility Statement</Link></p>
         </div>
       </div>
 
