@@ -98,7 +98,7 @@ const Contact = () => {
           </form>
           <div className="w-full sm:w-1/2 p-4 text-center sm:text-left font-[Open Sans] text-lg text-center">
             <p className="font-bold">Contact details</p>
-            <p>Telephone: 014000 0000 / 0000 000000</p>
+            <p>Telephone: 07414899199 </p>
             <p>Email: info@preventchildrensocialcare.co.uk</p>
             <p>Website: www.preventchildrensocialcare.co.uk</p>
             <p className="font-bold mt-4">Address</p>
