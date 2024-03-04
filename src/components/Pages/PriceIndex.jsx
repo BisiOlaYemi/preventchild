@@ -46,25 +46,25 @@ const PriceIndex = () => {
             <Pricing
               imageUrl="https://img.freepik.com/free-photo/top-view-career-guidance-items-judges_23-2149443469.jpg?w=740&t=st=1708807160~exp=1708807760~hmac=a531ced7cc38bf006d1ac260403b0715186798ad311e7108b2000a877f099c50"
               title="Regulation 44"
-              price="100"
+              price="300"
               link="/service1"
             />
             <Pricing
               imageUrl="https://img.freepik.com/free-photo/company-representatives-reading-applicant-resume-hiring_1163-4684.jpg?w=740&t=st=1708807268~exp=1708807868~hmac=6bf0638e2327bfeeb69421ba121e0230acd390bb3d726eb458634df602ca8545"
               title="Recruitment Support"
-              price="150"
+              price="35 /hour"
               link="/service2"
             />
             <Pricing
               imageUrl="https://img.freepik.com/free-vector/tiny-people-signing-legal-principles-document-protection-privacy-data-control-employee-statement-with-text-protocol-flat-vector-illustration-regulation-procedure-concept_74855-26122.jpg?w=740&t=st=1708807556~exp=1708808156~hmac=835c8a3b8ebb4ac481552e4e69add6a4ef577135bab265b2eb4bb6ea8c341b3b"
               title="Compliance Assistance"
-              price="200"
+              price="45"
               link="/service3"
             />
             <Pricing
               imageUrl="https://img.freepik.com/premium-photo/st-petersburg-abstract-style-wallpaper-background_888846-2558.jpg?w=740"
               title="Report Preparation"
-              price="250"
+              price=""
               link="/service4"
             />
           </div>
