@@ -14,7 +14,7 @@ const Footer = () => {
           <p>Prevent Children Social Care Consultancy</p>
           <p>Lanwood House, 18 Lan Park Road</p>
           <p>Pontypridd CF37 2DH</p>
-          <p>Telephone: 01400 000 / 0000000 000</p>
+          <p>Telephone: 07414899199 </p>
           <p>Email: info@preventchildrensocialcare.co.uk</p>
 
           <div className='mt-4 mb-4'>
