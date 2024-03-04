@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import MainLayout from '../Layouts/MainLayouts';
 
 const Contact = () => {
@@ -16,45 +16,32 @@ const Contact = () => {
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-
-    if (window.Email) {
-      window.Email.send({
-        SecureToken: 'C973D7AD-F097-4B95-91F4-40ABC5567812',
-        To: 'info@preventchildrensocialcare.co.uk',
-        From: formData.email,
-        Subject: 'Form Submission',
-        Body: `
-          Name: ${formData.name}\n
-          Email: ${formData.email}\n
-          Phone: ${formData.phone}\n
-          Subject: ${formData.subject}\n
-          Comments: ${formData.comments}
-        `
-      }).then(() => {
-        console.log('Form submitted successfully!');
-      }).catch((error) => {
-        console.error('Error submitting form:', error);
+  
+    try {
+      const response = await fetch('https://getform.io/f/jawljzqb', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
       });
-    } else {
-      console.error('SMTPJS script not loaded.');
+  
+      if (response.ok) {
+        
+        alert('Form submitted successfully!');
+      } else {
+        
+        alert('Failed to submit form. Please try again later.');
+      }
+    } catch (error) {
+      
+      console.error('Error submitting form:', error);
+      alert('Failed to submit form. Please try again later.');
     }
   };
-
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://smtpjs.com/v3/smtp.js';
-    script.async = true;
-    script.onload = () => {
-      console.log('SMTPJS script loaded.');
-    };
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
+  
 
   return (
     <MainLayout>
