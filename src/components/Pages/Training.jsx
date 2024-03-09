@@ -18,7 +18,7 @@ const Training = () => {
             <h2 className='text-2xl mt-8 text-blue-950 font-bold'>Training & Development</h2>
             <p className="text-lg font-[Open Sans] mb-2 mt-4" >We offer a wide range of health and social care courses, these range from a few hours up to 10 days over a few months. Our training includes:</p>
             <ul className="pl-2 list-disc text-lg font-[Open Sans] mb-2 mt-2">
-                <li>Safeguarding Children</li>
+                <li>Safeguarding Children(Level 1 & 2)</li>
                 <li>Child Sexual Exploitation (CSE)</li>
                 <li>Child Criminal Exploitation (CCE) and County Lines</li>
                 <li>Record Keeping and Report Writing</li>
