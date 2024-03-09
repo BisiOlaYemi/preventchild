@@ -16,13 +16,16 @@ const Training = () => {
         />
         <div className="container mx-auto px-4 mt-8">
             <h2 className='text-2xl mt-8 text-blue-950 font-bold'>Training & Development</h2>
-            <p className="text-lg font-[Open Sans] mb-2 mt-4" >We offer a wide range of health and social care courses, these range from a few hours up to 10 days over a few months. All of our courses are:</p>
+            <p className="text-lg font-[Open Sans] mb-2 mt-4" >We offer a wide range of health and social care courses, these range from a few hours up to 10 days over a few months. Our training includes:</p>
             <ul className="pl-2 list-disc text-lg font-[Open Sans] mb-2 mt-2">
-                <li>Based on current legislation and best practice</li>
-                <li>Delivered by a trainer with extensive experience of the subject</li>
-                <li>Engaging, fun and thought provoking</li>
-                <li>Designed to; improve knowledge, increase confidence, develop competence</li>
-                <li>Delivered by a trainer with a proper training qualification e.g. PGCE</li>
+                <li>Safeguarding Children</li>
+                <li>Child Sexual Exploitation (CSE)</li>
+                <li>Child Criminal Exploitation (CCE) and County Lines</li>
+                <li>Record Keeping and Report Writing</li>
+                <li>Risk Assessment</li>
+                <li>Key Working Skills</li>
+                <li>Allegations Management</li>
+                <li>Manager’s supervision</li>
             </ul>
         
           <p className="text-lg font-[Open Sans] mb-2 mt-4">We are able to deliver both face to face and virtual courses.  Face to face courses take into account all
