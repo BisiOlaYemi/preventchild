@@ -9,7 +9,7 @@ const Regulation44 = () => {
     <MainLayouts>
       <div className='mt-56 relative overflow-hidden'>
         <img
-          src="https://img.freepik.com/premium-photo/close-up-ux-developer-ui-designer-brainstorming-about-mobile-app-interface-wireframe-design-table-with-customer-breif-color-code-modern-officecreative-digital-development-agency_49553-3114.jpg?w=996"
+          src="https://img.freepik.com/premium-photo/top-view-judge-s-gavel_23-2148172295.jpg?w=826"
           alt="Banner"
           className="w-full object-cover"
           style={{ height: '550px', minWidth: '100vw', position: 'relative', left: '50%', transform: 'translateX(-50%)'}}
