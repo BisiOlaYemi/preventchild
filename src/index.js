@@ -8,6 +8,7 @@ import Services from './components/Pages/Services';
 import Training from './components/Pages/Training';
 import PriceIndex from './components/Pages/PriceIndex';
 import Contact from './components/Pages/Contact';
+import Regulation44 from './components/Pages/Regulation44';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,7 +19,8 @@ root.render(
       <Route path="/Services" element={<Services /> } />
       <Route path="/Training" element={<Training /> } />  
       <Route path="/PriceIndex" element={<PriceIndex /> } />
-      <Route path="/Contact" element={<Contact /> } />    
+      <Route path="/Contact" element={<Contact /> } />
+      <Route path='/Regulation44' element={<Regulation44 /> }/>
     </Routes>
   </Router>
 );
