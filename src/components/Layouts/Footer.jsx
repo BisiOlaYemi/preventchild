@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
         <div className="w-full md:w-1/3">
           <h3 className="text-lg font-semibold mb-4 border-b">Our Services</h3>
-          <p><Link to="#">Regulation 44 Compliance</Link></p>
+          <p><Link to="/Regulation44">Regulation 44 Compliance</Link></p>
           <p><Link to="#">Recruitment Support</Link></p>
           <p><Link to="#">Compliance Assistance</Link></p>
           <p><Link to="#">Ofsted Report Preparation</Link></p>
