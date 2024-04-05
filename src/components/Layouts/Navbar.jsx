@@ -41,32 +41,32 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li className="font-[Open Sans] text-sm text-black">
+            <li className="font-[Open Sans] text-lg text-black">
               <Link to="/Aboutus" className="hover:text-gray-800 hover:underline">
                 About us
               </Link>
             </li>
-            <li className="font-[Open Sans] text-sm text-black">
+            <li className="font-[Open Sans] text-lg text-black">
               <Link to="/Services" className="hover:text-gray-800 hover:underline">
                 Services
               </Link>
             </li>
-            <li className="font-[Open Sans] text-sm text-black">
+            <li className="font-[Open Sans] text-lg text-black">
               <Link to="/Training" className="hover:text-gray-800 hover:underline">
                 Training
               </Link>
             </li>
-            <li className="font-[Open Sans] text-sm text-black">
+            <li className="font-[Open Sans] text-lg text-black">
               <Link to="/PriceIndex" className="hover:text-gray-800 hover:underline">
                 Pricing
               </Link>
             </li>
-            <li className="font-[Open Sans] text-sm text-black">
+            <li className="font-[Open Sans] text-lg text-black">
               <Link to="/#" className="hover:text-gray-800 hover:underline">
                 Testimonials
               </Link>
             </li>
-            <li className="font-[Open Sans] text-sm text-black">
+            <li className="font-[Open Sans] text-lg text-black">
               <Link to="/Contact" className="hover:text-gray-800 hover:underline">
                 Contact us
               </Link>
