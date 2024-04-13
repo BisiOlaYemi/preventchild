@@ -5,6 +5,9 @@ import "slick-carousel/slick/slick-theme.css";
 import Cards from './Pages/Cards';
 import Page from './Pages/WhoWeAre';
 import Testimonial from './Pages/Testimonial';
+import BANNER1 from '../assets/BANNER1.png';
+import BANNER2 from '../assets/BANNER2.png';
+import BANNER3 from '../assets/BANNER3.png';
 
 const MySlider = () => {
   const settings = {
@@ -28,17 +31,17 @@ const MySlider = () => {
 
   const slides = [
     {
-      image: 'https://img.freepik.com/premium-photo/support-trust-hospital-care-with-doctor-patient-holding-hands-sharing-bad-news-cancer-diagnosis-kind-doctor-offering-loving-gesture-sick-person-during-health-crisis_590464-81493.jpg?size=626&ext=jpg&ga=GA1.1.391507465.1706553752&semt=ais',
+      image: BANNER1,
       text: 'Access to Education',
       cta: 'Find out More',
     },
     {
-      image: 'https://img.freepik.com/free-photo/medium-shot-women-doctors-hugging_23-2149856233.jpg?size=626&ext=jpg&ga=GA1.2.391507465.1706553752&semt=ais',
+      image: BANNER2,
       text: 'Safe Housing Support',
       cta: 'Find out More',
     },
     {
-      image: 'https://img.freepik.com/premium-photo/attentive-caregiver-assisting-teaching-senior-woman-walk-with-walker-assistance-rehabilitation-health_35674-20814.jpg?size=626&ext=jpg&ga=GA1.1.391507465.1706553752&semt=ais',
+      image: BANNER3,
       text: 'Parenting Support',
       cta: 'Find out More',
     },
