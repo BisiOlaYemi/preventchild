@@ -1,5 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import A1 from '../../assets/A1.png';
+import A2 from '../../assets/A2.png';
+import A3 from '../../assets/A3.png';
+import A4 from '../../assets/A4.png';
+import A5 from '../../assets/A5.png';
+import A6 from '../../assets/A6.png';
 
 const ServiceCard = ({ imageUrl, title, description, link }) => {
   return (
@@ -27,37 +33,37 @@ const Cards = () => {
       </p>
       <div className="flex flex-wrap justify-center">
         <ServiceCard
-          imageUrl="https://img.freepik.com/free-photo/high-angle-woman-girls-home_23-2150275602.jpg?size=626&ext=jpg&ga=GA1.1.391507465.1706553752&semt=ais"
+          imageUrl={A1}
           title="Child-Centric Approach"
           
           link="/service1" 
         />
         <ServiceCard
-          imageUrl="https://img.freepik.com/free-photo/teacher-putting-her-hands-together-with-her-students-game_23-2148633397.jpg?size=626&ext=jpg&ga=GA1.2.391507465.1706553752&semt=ais"
+          imageUrl={A2}
           title="Intervention  Services"
           
           link="/service2" 
         />
         <ServiceCard
-          imageUrl="https://img.freepik.com/premium-photo/sensitive-albino-child-girl-hugs-african-boy-isolated_183219-2072.jpg?size=626&ext=jpg&ga=GA1.2.391507465.1706553752&semt=ais"
+          imageUrl={A3}
           title="Family Strengthening Programs"
           
           link="/service3" 
         />
         <ServiceCard
-          imageUrl="https://img.freepik.com/premium-photo/family-staying-hotel_53876-48206.jpg?size=626&ext=jpg&ga=GA1.2.391507465.1706553752&semt=ais"
+          imageUrl={A4}
           title="Safe Housing and Community "
           
           link="/service4" 
         />
         <ServiceCard
-          imageUrl="https://img.freepik.com/free-photo/view-young-children-suffering-from-abuse_23-2150248246.jpg?size=626&ext=jpg&ga=GA1.2.391507465.1706553752&semt=ais"
+          imageUrl={A5}
           title=" Multi-Agency Approach"
           
           link="/service3" 
         />
         <ServiceCard
-          imageUrl="https://img.freepik.com/premium-photo/friends-teasing-boy_107420-24710.jpg?size=626&ext=jpg&ga=GA1.2.391507465.1706553752&semt=ais"
+          imageUrl={A6}
           title="Trauma-informed Approach"
           
           link="/service4" 
