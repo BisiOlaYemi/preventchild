@@ -34,7 +34,7 @@ const Services = () => {
                 the level of compliance of your care service. <br />
             </p>
             <p className="text-xl font-[Open Sans] text-center mb-8">
-                Take a look at our services below, or for more information please <a href='/ContactUs' className='text-lg font-semibold text-blue-800'>Contact us</a>
+                Take a look at our services below, or for more information please <a href='/Contact' className='text-lg font-semibold text-blue-800'>Contact us</a>
             </p>
             <div className="flex flex-wrap justify-center">
                 <ServiceCard
