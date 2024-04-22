@@ -69,7 +69,7 @@ const Services = () => {
                 />
                 <ServiceCard
                 imageUrl="https://img.freepik.com/premium-photo/sales-manager-giving-advice-application-form-document-considering-mortgage-loan-offer-car-house-insurance_1715-1394.jpg?w=740"
-                title="Policy and Procedure Development"
+                title="Policy & Procedure Development"
                 link="#" 
                 />
                 <ServiceCard
