@@ -28,8 +28,8 @@ const Training = () => {
                 <li>Staffs' supervision</li>
             </ul>
         
-          <p className="text-lg font-[Open Sans] mb-2 mt-4">We are able to deliver both face to face and virtual courses.  Face to face courses take into account all
-            current health and safety requirements. Virtual courses are delivered via Zoom.</p>
+          <p className="text-lg font-[Open Sans] mb-2 mt-4">We are able to deliver face-to-face training. Our Face-to-face courses take into account all
+            current health and safety requirements.</p>
             
             <div className="flex flex-wrap justify-center">
 
