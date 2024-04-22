@@ -56,11 +56,11 @@ const Navbar = () => {
                 Training
               </Link>
             </li>
-            <li className="font-[Open Sans] text-lg text-black">
+            {/* <li className="font-[Open Sans] text-lg text-black">
               <Link to="/PriceIndex" className="hover:text-gray-800 hover:underline">
                 Pricing
               </Link>
-            </li>
+            </li> */}
             <li className="font-[Open Sans] text-lg text-black">
               <Link to="/#" className="hover:text-gray-800 hover:underline">
                 Testimonials
@@ -98,11 +98,11 @@ const Navbar = () => {
                 Training
               </Link>
             </li>
-            <li className="font-semibold text-xl text-white">
+            {/* <li className="font-semibold text-xl text-white">
               <Link to="/PriceIndex" className="hover:text-blue-950">
                 Pricing
               </Link>
-            </li>
+            </li> */}
             <li className="font-semibold text-xl text-white">
               <Link to="/#" className="hover:text-blue-950">
                 Testimonials
