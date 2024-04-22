@@ -62,7 +62,7 @@ const Navbar = () => {
               </Link>
             </li> */}
             <li className="font-[Open Sans] text-lg text-black">
-              <Link to="/#" className="hover:text-gray-800 hover:underline">
+              <Link to="#" className="hover:text-gray-800 hover:underline">
                 Testimonials
               </Link>
             </li>
@@ -104,7 +104,7 @@ const Navbar = () => {
               </Link>
             </li> */}
             <li className="font-semibold text-xl text-white">
-              <Link to="/#" className="hover:text-blue-950">
+              <Link to="#" className="hover:text-blue-950">
                 Testimonials
               </Link>
             </li>
