@@ -25,7 +25,7 @@ const Training = () => {
                 <li>Risk Assessment</li>
                 <li>Key Working Skills</li>
                 <li>Allegations Management</li>
-                <li>Manager’s supervision</li>
+                <li>Staffs' supervision</li>
             </ul>
         
           <p className="text-lg font-[Open Sans] mb-2 mt-4">We are able to deliver both face to face and virtual courses.  Face to face courses take into account all

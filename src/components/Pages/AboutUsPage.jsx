@@ -25,13 +25,13 @@ const AboutUsPage = () => {
                 Through our consultancy services, we provide guidance and assistance to care homes,
                 enabling them to meet regulatory requirements while prioritizing the welfare of the children they serve.
             </p>
-            <h2 className='text-2xl text-blue-950 font-semibold mt-4 mb-4 text-center'>Our Mission</h2>
+            {/* <h2 className='text-2xl text-blue-950 font-semibold mt-4 mb-4 text-center'>Our Mission</h2>
             <p className="mb-4 text-xl">
                 We envision a future where every child in residential care thrives in a nurturing environment. By working closely with care homes, 
                 we aim to optimize their operations, ensuring peak efficiency, effectiveness, and compliance. 
                 Our vision is one of positive outcomes and experiences for all involved, with children receiving 
                 the care and support they need to flourish.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

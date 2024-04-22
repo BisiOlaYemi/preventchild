@@ -45,7 +45,7 @@ const PriceIndex = () => {
           <div className="flex flex-wrap justify-center">
             <Pricing
               imageUrl="https://img.freepik.com/free-photo/top-view-career-guidance-items-judges_23-2149443469.jpg?w=740&t=st=1708807160~exp=1708807760~hmac=a531ced7cc38bf006d1ac260403b0715186798ad311e7108b2000a877f099c50"
-              title="Regulation 44"
+              title="Regulation 44 Visit"
               price="300"
               link="/service1"
             />

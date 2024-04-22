@@ -12,8 +12,8 @@ const Footer = () => {
         <div className="w-full md:w-1/3">
           <h3 className="text-lg font-semibold mb-4 border-b">Contact Us</h3>
           <p>Prevent Children Social Care Consultancy</p>
-          <p>Lanwood House, 18 Lan Park Road</p>
-          <p>Pontypridd CF37 2DH</p>
+          <p>214, High Street,</p>
+          <p>Herne Bay, Kent CT6 5AX</p>
           <p>Telephone: 07414899199 </p>
           <p>Email: info@preventchildrensocialcare.co.uk</p>
 
@@ -25,17 +25,17 @@ const Footer = () => {
         </div>
         <div className="w-full md:w-1/3">
           <h3 className="text-lg font-semibold mb-4 border-b">Our Services</h3>
-          <p><Link to="/Regulation44">Regulation 44 Compliance</Link></p>
+          <p><Link to="/Regulation44">Regulation 44 Visit</Link></p>
           <p><Link to="#">Recruitment Support</Link></p>
           <p><Link to="#">Compliance Assistance</Link></p>
-          <p><Link to="#">Ofsted Report Preparation</Link></p>
+          {/* <p><Link to="#">Ofsted Report Preparation</Link></p> */}
           <p><Link to="#">Disciplinary Procedures</Link></p>
           <p><Link to="#">Training and Development</Link></p>
         </div>
         <div className="w-full md:w-1/3">
           <h3 className="text-lg font-semibold mb-4 border-b">Information</h3>
           <p><Link to="/AboutUs">About Us</Link></p>
-          <p><Link to="/PriceIndex">Pricing</Link></p>
+          {/* <p><Link to="/PriceIndex">Pricing</Link></p> */}
           <p><Link to="#">News</Link></p>
           <p><Link to="#">Client Testimonials</Link></p>
           <p><Link to="#">Privacy Policy</Link></p>

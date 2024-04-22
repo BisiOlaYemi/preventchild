@@ -125,7 +125,7 @@ const Contact = () => {
             <p>Website: www.preventchildrensocialcare.co.uk</p>
             <p className="font-bold mt-4">Address</p>
             <p>Prevent Children Social Care Consultancy</p>
-            <p>Lanwood House, Pontypridd CF37 2DH</p>
+            <p>214, High Street, Herne Bay, Kent CT6 5AX</p>
           </div>
         </div>
       </div>
