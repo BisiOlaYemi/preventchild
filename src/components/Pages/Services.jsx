@@ -5,6 +5,7 @@ import OURSERVICES from '../../assets/OURSERVICES.jpg'
 import COMPLAINTASSISTANCE from '../../assets/COMPLAINTASSISTANCE.jpg'
 import DISCIPLINARYPROCEDURE from '../../assets/DISCIPLINARYPROCEDURE.jpg'
 import RECRUITMENTSUPPORT from '../../assets/RECRUITMENTSUPPORT.jpg'
+import REGULATION44 from '../../assets/REGULATION44.jpg'
 
 const ServiceCard = ({ imageUrl, title, description, link }) => {
     return (
@@ -46,7 +47,7 @@ const Services = () => {
             </p>
             <div className="flex flex-wrap justify-center">
                 <ServiceCard
-                imageUrl="https://img.freepik.com/free-photo/top-view-career-guidance-items-judges_23-2149443469.jpg?w=740&t=st=1708807160~exp=1708807760~hmac=a531ced7cc38bf006d1ac260403b0715186798ad311e7108b2000a877f099c50"
+                imageUrl={REGULATION44}
                 title="Regulation 44 Visit"
                 link="/Regulation44" 
                 />
