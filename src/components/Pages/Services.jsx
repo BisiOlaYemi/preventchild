@@ -2,7 +2,9 @@ import React from 'react';
 import MainLayouts from '../Layouts/MainLayouts';
 import { Link } from 'react-router-dom';
 import OURSERVICES from '../../assets/OURSERVICES.jpg'
-
+import COMPLAINTASSISTANCE from '../../assets/COMPLAINTASSISTANCE.jpg'
+import DISCIPLINARYPROCEDURE from '../../assets/DISCIPLINARYPROCEDURE.jpg'
+import RECRUITMENTSUPPORT from '../../assets/RECRUITMENTSUPPORT.jpg'
 
 const ServiceCard = ({ imageUrl, title, description, link }) => {
     return (
@@ -49,12 +51,12 @@ const Services = () => {
                 link="/Regulation44" 
                 />
                 <ServiceCard
-                imageUrl="https://img.freepik.com/free-photo/company-representatives-reading-applicant-resume-hiring_1163-4684.jpg?w=740&t=st=1708807268~exp=1708807868~hmac=6bf0638e2327bfeeb69421ba121e0230acd390bb3d726eb458634df602ca8545"
+                imageUrl={RECRUITMENTSUPPORT}
                 title="Recruitment Support"
                 link="#" 
                 />
                 <ServiceCard
-                imageUrl="https://img.freepik.com/free-vector/tiny-people-signing-legal-principles-document-protection-privacy-data-control-employee-statement-with-text-protocol-flat-vector-illustration-regulation-procedure-concept_74855-26122.jpg?w=740&t=st=1708807556~exp=1708808156~hmac=835c8a3b8ebb4ac481552e4e69add6a4ef577135bab265b2eb4bb6ea8c341b3b"
+                imageUrl={COMPLAINTASSISTANCE}
                 title="Compliance Assistance"
                 link="#" 
                 />
@@ -64,7 +66,7 @@ const Services = () => {
                 link="#" 
                 /> */}
                 <ServiceCard
-                imageUrl="https://img.freepik.com/free-photo/angry-executive-pointing-wristwatch-scolding-employee-being-late_1163-4708.jpg?w=740&t=st=1708807841~exp=1708808441~hmac=33f18f4352e72b363aca498c2043a8934210c2ca108fb047181708d49c702452"
+                imageUrl={DISCIPLINARYPROCEDURE}
                 title=" Disciplinary Procedures"
                 link="#" 
                 />
