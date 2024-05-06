@@ -10,7 +10,12 @@ const AboutUsPage = () => {
           src={ABOUTUS}
           alt="About Us Banner"
           className="w-full object-cover"
-          style={{ height: '550px', minWidth: '100vw', position: 'relative', left: '50%', transform: 'translateX(-50%)'}}
+          style={{ height: '550px', 
+          minWidth: '100vw', 
+          position: 'relative', 
+          left: '50%', 
+          transform: 'translateX(-50%)'
+        }}
         />
         <div className="container mx-auto px-4 mt-2">
           <div className="max-w-3xl mx-auto leading-relaxed">
