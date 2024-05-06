@@ -1,6 +1,7 @@
 import React from 'react';
 import MainLayouts from '../Layouts/MainLayouts';
 import { Link } from 'react-router-dom';
+import OURSERVICES from '../../assets/OURSERVICES.jpg'
 
 
 const ServiceCard = ({ imageUrl, title, description, link }) => {
@@ -20,10 +21,15 @@ const Services = () => {
     <MainLayouts>
       <div className='mt-56 relative overflow-hidden'>
         <img
-          src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041866.jpg?w=740&t=st=1708797464~exp=1708798064~hmac=ace44481cda9392e555e77f990ff563b0d0d3b9459cf13354e4f4d424f8273fe"
+          src={OURSERVICES}
           alt="About Us Banner"
           className="w-full object-cover"
-          style={{ height: '550px', minWidth: '100vw', position: 'relative', left: '50%', transform: 'translateX(-50%)'}}
+          style={{ height: '550px', 
+          minWidth: '100vw', 
+          position: 'relative', 
+          left: '50%', 
+          transform: 'translateX(-50%)'
+        }}
         />
         <div className="container mx-auto px-4 mt-8">
             <h2 className='text-3xl mt-8 text-blue-950 text-center font-bold'>Our Services</h2>
