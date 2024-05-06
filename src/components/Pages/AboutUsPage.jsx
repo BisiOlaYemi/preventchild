@@ -1,12 +1,13 @@
 import React from 'react';
 import MainLayouts from '../Layouts/MainLayouts';
+import ABOUTUS from '../../assets/ABOUTUS.jpg'
 
 const AboutUsPage = () => {
   return (
     <MainLayouts>
       <div className='mt-56 relative overflow-hidden'>
         <img
-          src="https://media.istockphoto.com/id/466292648/photo/metal-about-us-text.jpg?s=612x612&w=0&k=20&c=H1Hu-TrG4m1nbG6lKTo_lz11M925RkR9ofZnJAnc1Pw="
+          src={ABOUTUS}
           alt="About Us Banner"
           className="w-full object-cover"
           style={{ height: '550px', minWidth: '100vw', position: 'relative', left: '50%', transform: 'translateX(-50%)'}}

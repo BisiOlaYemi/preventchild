@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import MainLayout from '../Layouts/MainLayouts';
+import CONTACTUS from '../../assets/CONTACTUS.jpg'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -47,7 +48,7 @@ const Contact = () => {
     <MainLayout>
     <div className='mt-56 relative overflow-hidden'>
         <img
-            src="https://img.freepik.com/premium-photo/contact-us-concept-wood-block-symbol-telephone-mail-address-desk_52701-83.jpg?w=826"
+            src={CONTACTUS}
             alt="Contact Us Banner"
             className="w-full object-cover"
             style={{ height: '550px', minWidth: '100vw', position: 'relative', left: '50%', transform: 'translateX(-50%)'}}
