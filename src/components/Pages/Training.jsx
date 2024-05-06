@@ -13,7 +13,12 @@ const Training = () => {
           src={TRAINING}
           alt="About Us Banner"
           className="w-full object-cover"
-          style={{ height: '550px', minWidth: '100vw', position: 'relative', left: '50%', transform: 'translateX(-50%)'}}
+          style={{ height: '550px', 
+          minWidth: '100vw', 
+          position: 'relative', 
+          left: '50%', 
+          transform: 'translateX(-50%)'
+        }}
         />
         <div className="container mx-auto px-4 mt-8">
             <h2 className='text-2xl mt-8 text-blue-950 font-bold'>Training & Development</h2>
