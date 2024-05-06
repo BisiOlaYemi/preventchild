@@ -1,6 +1,7 @@
 import React from 'react';
 import MainLayouts from '../Layouts/MainLayouts';
 // import { Link } from 'react-router-dom';
+import TRAINING from '../../assets/TRAINING.jpg'
 
 
 
@@ -9,7 +10,7 @@ const Training = () => {
     <MainLayouts>
       <div className='mt-56 relative overflow-hidden'>
         <img
-          src="https://img.freepik.com/premium-photo/close-up-ux-developer-ui-designer-brainstorming-about-mobile-app-interface-wireframe-design-table-with-customer-breif-color-code-modern-officecreative-digital-development-agency_49553-3114.jpg?w=996"
+          src={TRAINING}
           alt="About Us Banner"
           className="w-full object-cover"
           style={{ height: '550px', minWidth: '100vw', position: 'relative', left: '50%', transform: 'translateX(-50%)'}}
