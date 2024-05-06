@@ -1,5 +1,6 @@
 import React from 'react';
 import MainLayouts from '../Layouts/MainLayouts';
+import REGULATION44 from '../../assets/REGULATION44.jpg'
 
 
 
@@ -9,10 +10,15 @@ const Regulation44 = () => {
     <MainLayouts>
       <div className='mt-56 relative overflow-hidden'>
         <img
-          src="https://img.freepik.com/premium-photo/top-view-judge-s-gavel_23-2148172295.jpg?w=826"
+          src={REGULATION44}
           alt="Banner"
           className="w-full object-cover"
-          style={{ height: '550px', minWidth: '100vw', position: 'relative', left: '50%', transform: 'translateX(-50%)'}}
+          style={{ height: '550px', 
+          minWidth: '100vw', 
+          position: 'relative', 
+          left: '50%', 
+          transform: 'translateX(-50%)'
+        }}
         />
         <div className="container mx-auto px-4 mt-8">
             <h2 className='text-2xl mt-8 text-blue-950 font-bold'>Regulation 44</h2>
