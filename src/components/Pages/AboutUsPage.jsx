@@ -21,15 +21,16 @@ const AboutUsPage = () => {
           <div className="max-w-3xl mx-auto leading-relaxed">
             <h2 className='text-2xl text-blue-950 font-semibold mb-2 text-center'>Who We Are</h2>
             <p className="mb-4 text-xl">
-                We are a team of experienced professionals with a passion for making a positive difference in 
-                the lives of children in residential care settings. Our consultants bring together a wealth of 
-                knowledge and expertise in child welfare, regulatory compliance, leadership development, and training.
+                We are a team of experienced professionals with a passion for making a positive
+                difference in the lives of children in residential care settings.
+                Our consultants bring together a wealth of knowledge and expertise in children’s homes,
+                regulatory compliance, leadership development, and training.
             </p>
             <h2 className='text-2xl text-blue-950 font-semibold mt-4 mb-4 text-center'>Our Mission</h2>
             <p className="mb-4 text-xl">
-                Our mission is clear: to ensure that every child in residential care receives the exceptional support they deserve. 
-                Through our consultancy services, we provide guidance and assistance to care homes,
-                enabling them to meet regulatory requirements while prioritizing the welfare of the children they serve.
+                Our mission is clear: to ensure that every child in residential care receives the exceptional support they deserve.
+                Through our consultancy services, we provide guidance and assistance to children’s homes, enabling them to meet regulatory
+                requirements while prioritising the welfare of the children they support.
             </p>
             {/* <h2 className='text-2xl text-blue-950 font-semibold mt-4 mb-4 text-center'>Our Mission</h2>
             <p className="mb-4 text-xl">

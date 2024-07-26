@@ -52,7 +52,12 @@ const Contact = () => {
           src={CONTACTUS}
           alt="Contact Us Banner"
           className="w-full object-cover"
-          style={{ height: '550px', minWidth: '100vw', position: 'relative', left: '50%', transform: 'translateX(-50%)'}}
+          style={{ height: '550px', 
+            minWidth: '100vw', 
+            position: 'relative', 
+            left: '50%', 
+            transform: 'translateX(-50%)'
+          }}
         />
         <div className='mt-10 sm:mt-24'>
           <h2 className='text-xl sm:text-2xl font-[Open Sans] mt-4 sm:mt-8 text-center sm:text-left pl-4 sm:pl-16'>Please complete Enquiry Form below</h2>

@@ -37,10 +37,8 @@ const Services = () => {
         <div className="container mx-auto px-4 mt-8">
             <h2 className='text-3xl mt-8 text-blue-950 text-center font-bold'>Our Services</h2>
             <p className="text-xl font-[Open Sans]  mb-8 mt-8">
-                Prevent Children Social Care Consultants offers a 
-                professional service to the care sector all over the UK. 
-                Our services are designed to ensure that you have peace of mind about 
-                the level of compliance of your care service. <br />
+                  Prevent Children Social Care Consultancy offers a professional service to the Childrens home sector.
+                  Our services are designed to ensure that you have peace of mind about the level of compliance of your children’s home. <br />
             </p>
             <p className="text-xl font-[Open Sans] text-center mb-8">
                 Take a look at our services below, or for more information please <a href='/Contact' className='text-lg font-semibold text-blue-800'>Contact us</a>

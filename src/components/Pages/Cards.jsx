@@ -25,11 +25,11 @@ const Cards = () => {
     <div className="container mx-auto">
       
       <p className="text-xl font-[Open Sans] text-center mb-8 mt-8">
-      Supporting families to build resilience and strengthen their relationships< br />
-      can help prevent crises that may lead to the involvement of social services.
+          Supporting families to build resilience and strengthen their relationships < br />
+          can help prevent crises that may lead to the involvement of social services.
       </p>
       <p className="text-xl font-[Open Sans] text-center mb-8">
-      The need for children's social care involves addressing various factors that can contribute to family stress
+          The need for children's social care involves addressing various factors that can contribute to family stress
       </p>
       <div className="flex flex-wrap justify-center">
         <ServiceCard
