@@ -36,37 +36,37 @@ const Cards = () => {
           imageUrl={A1}
           title="Child-Centric Approach"
           
-          link="/service1" 
+          link="#" 
         />
         <ServiceCard
           imageUrl={A2}
           title="Intervention  Services"
           
-          link="/service2" 
+          link="#" 
         />
         <ServiceCard
           imageUrl={A3}
           title="Family Strengthening Programs"
           
-          link="/service3" 
+          link="#" 
         />
         <ServiceCard
           imageUrl={A4}
           title="Safe Housing and Community "
           
-          link="/service4" 
+          link="#" 
         />
         <ServiceCard
           imageUrl={A5}
           title=" Multi-Agency Approach"
           
-          link="/service3" 
+          link="#" 
         />
         <ServiceCard
           imageUrl={A6}
           title="Trauma-informed Approach"
           
-          link="/service4" 
+          link="#" 
         />
       </div>
     </div>
