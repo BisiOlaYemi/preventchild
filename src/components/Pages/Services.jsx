@@ -52,7 +52,7 @@ const Services = () => {
                 <ServiceCard
                 imageUrl={RECRUITMENTSUPPORT}
                 title="Recruitment Support"
-                link="#" 
+                link="/Recruitment" 
                 />
                 <ServiceCard
                 imageUrl={COMPLAINTASSISTANCE}
