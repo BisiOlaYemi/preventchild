@@ -10,6 +10,7 @@ import PriceIndex from './components/Pages/PriceIndex';
 import Contact from './components/Pages/Contact';
 import Regulation44 from './components/Pages/Regulation44';
 import Recruitment from './components/Pages/Recruitment';
+import Compliance from './components/Pages/Compliance';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +24,7 @@ root.render(
       <Route path="/Contact" element={<Contact /> } />
       <Route path='/regulation44' element={<Regulation44 /> }/>
       <Route path='/recruitment' element={<Recruitment /> }/>
+      <Route path='/Compliance' element={<Compliance /> }/>
     </Routes>
   </Router>
 );

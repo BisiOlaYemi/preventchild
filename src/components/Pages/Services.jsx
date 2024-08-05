@@ -57,7 +57,7 @@ const Services = () => {
                 <ServiceCard
                 imageUrl={COMPLAINTASSISTANCE}
                 title="Compliance Assistance"
-                link="#" 
+                link="/Compliance" 
                 />
                 {/* <ServiceCard
                 imageUrl="https://img.freepik.com/premium-photo/st-petersburg-abstract-style-wallpaper-background_888846-2558.jpg?w=740"
