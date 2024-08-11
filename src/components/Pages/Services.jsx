@@ -67,7 +67,7 @@ const Services = () => {
                 <ServiceCard
                 imageUrl={DISCIPLINARYPROCEDURE}
                 title=" Disciplinary Procedures"
-                link="#" 
+                link="/Discipline" 
                 />
                 <ServiceCard
                 imageUrl="https://img.freepik.com/free-photo/everyone-is-smiling-listens-group-people-business-conference-modern-classroom-daytime_146671-16288.jpg?w=740&t=st=1708808018~exp=1708808618~hmac=5764ad89639e7d2f1048609e2dd94391d07ed27f6f154a0f9f419265b1d0599a"
