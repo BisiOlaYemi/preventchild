@@ -13,6 +13,7 @@ import Recruitment from './components/Pages/Recruitment';
 import Compliance from './components/Pages/Compliance';
 import TrainingDev from './components/Pages/TrainingDev';
 import Policy from './components/Pages/Policy';
+import Staffing from './components/Pages/Staffing';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -29,6 +30,7 @@ root.render(
       <Route path='/Compliance' element={<Compliance /> }/>
       <Route path='/TrainingDev' element={<TrainingDev /> }/>
       <Route path='/Policy' element={<Policy /> }/>
+      <Route path='/Staffing' element={<Staffing /> }/>
     </Routes>
   </Router>
 );
