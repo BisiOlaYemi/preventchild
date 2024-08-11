@@ -21,7 +21,7 @@ const Regulation44 = () => {
         }}
         />
         <div className="container mx-auto px-4 mt-8">
-            <h2 className='text-2xl mt-8 text-blue-950 font-bold'>Regulation 44</h2>
+            <h2 className='text-2xl mt-8 text-blue-950 font-bold text-center'>Regulation 44</h2>
             <p className="text-lg font-[Open Sans] mb-2 mt-4" >Independent Visits for providers of Children’s Homes.
             Our Regulation 44 visitor is an independent person, who will visit your home on a monthly basis, to write a report about how the home is 
             meeting the needs of the young people placed. This will be judged by the 9 Quality standards and the children’s homes regulations 2015.
