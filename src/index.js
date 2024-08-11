@@ -11,6 +11,7 @@ import Contact from './components/Pages/Contact';
 import Regulation44 from './components/Pages/Regulation44';
 import Recruitment from './components/Pages/Recruitment';
 import Compliance from './components/Pages/Compliance';
+import TrainingDev from './components/Pages/TrainingDev';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +26,7 @@ root.render(
       <Route path='/regulation44' element={<Regulation44 /> }/>
       <Route path='/recruitment' element={<Recruitment /> }/>
       <Route path='/Compliance' element={<Compliance /> }/>
+      <Route path='/TrainingDev' element={<TrainingDev /> }/>
     </Routes>
   </Router>
 );

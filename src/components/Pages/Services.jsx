@@ -72,7 +72,7 @@ const Services = () => {
                 <ServiceCard
                 imageUrl="https://img.freepik.com/free-photo/everyone-is-smiling-listens-group-people-business-conference-modern-classroom-daytime_146671-16288.jpg?w=740&t=st=1708808018~exp=1708808618~hmac=5764ad89639e7d2f1048609e2dd94391d07ed27f6f154a0f9f419265b1d0599a"
                 title="Training and Development"
-                link="#" 
+                link="/TrainingDev" 
                 />
                 <ServiceCard
                 imageUrl="https://img.freepik.com/premium-photo/sales-manager-giving-advice-application-form-document-considering-mortgage-loan-offer-car-house-insurance_1715-1394.jpg?w=740"
