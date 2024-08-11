@@ -15,10 +15,12 @@ import TrainingDev from './components/Pages/TrainingDev';
 import Policy from './components/Pages/Policy';
 import Staffing from './components/Pages/Staffing';
 import Discipline from './components/Pages/Discipline';
+import ScrollToTop from './components/ScrollToTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
+    <ScrollToTop />
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/AboutUs" element={<AboutUsPage />} />
