@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Cards from './Pages/Cards';
 import Page from './Pages/WhoWeAre';
 import Testimonial from './Pages/Testimonial';
-import BANNER1 from '../assets/BANNER1.png';
+import BANNER1 from '../assets/BANNER1.jpg';
 import BANNER2 from '../assets/BANNER2.png';
 import BANNER3 from '../assets/BANNER3.png';
 
