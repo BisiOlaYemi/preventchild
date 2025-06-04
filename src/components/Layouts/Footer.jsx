@@ -15,7 +15,7 @@ const Footer = () => {
           <p>214, High Street,</p>
           <p>Herne Bay, Kent CT6 5AX</p>
           <p>Telephone: 07414899199 </p>
-          <p>Email: info@preventchildrensocialcare.co.uk</p>
+          <p>Email: info@preventsocialcare.co.uk</p>
 
           <div className='mt-4 mb-4'>
           <Link to="/">
